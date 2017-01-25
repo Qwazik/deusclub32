@@ -1,0 +1,24 @@
+extends _template-inner
+
+block main
+	.open-menu__wrap
+		button.open-menu 
+			i.fa.fa-bars
+		span Меню
+	include includes/aside-left
+	include includes/aside-right
+	main.page__center
+		h2 Контакты
+		.contacts-inner
+			.contacts-inner__left
+				h3 Часы работы 
+				p Понедельник - Четверг: 12:00 - 24:00
+				p Пятница - Суббота: 16:00 - 24:00
+				br
+				h3 Номер заказа для заказа столов: 
+				p +7(4832) 37-88-88 	
+				
+			.contacts-inner__right
+				.map
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=SU-b2b_YoKI7zra0YNRM7VLXwPjP12KC&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+				

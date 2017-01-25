@@ -1,0 +1,156 @@
+@media screen and (max-width: 1500px){
+	.address-block{
+		max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 1300px){
+	.contacts-inner{
+		&__left,&__right{
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+	.map{
+		margin-top: 20px;
+	}
+	.page{
+		&__left{
+			width: 25%;
+			padding-left: 20px;
+		}
+		&__right{
+			width: 25%;
+			padding-right: 20px;
+		}
+		&__center{
+			width: 50%;
+		}
+	}
+	.main-menu{
+		margin-top: 100px;
+		&__name{
+			font-size: 25px;
+		}
+		&__desc{
+			font-size: 16px;
+		}
+	}
+	.page__footer{
+		padding-top: 70px;
+	}
+	.main-menu{
+		margin-top: 50px;
+	}
+	
+	.main-header{
+		text-align: center !important;
+		text-align-last: center !important;
+		max-width: none;
+		&__logo{
+			display: block;
+			float: none;
+			clear: both;
+			width: 100%;
+			text-align: center !important;
+			text-align-last: center !important;
+			margin-bottom: 20px;
+			img{
+				display: inline-block;
+			}
+		}
+	}
+	.gallary li {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 993px){
+	.main-menu{
+		display: inline-block !important;
+	}
+}
+@media screen and (max-width: 992px){
+	.gallary li {
+		width: 33.3333333%;
+	}
+	.open-menu__wrap{
+		display: block;
+	}
+	.page.inner{
+		.main-menu{
+			display: none;
+			margin-top: 0;
+			margin-bottom: 30px;
+			&__desc{
+				// display: none;
+			}
+
+		}
+
+	}
+	.page.home  .main-header{
+		display: block;
+		text-align: center;
+	}
+	.page{
+		&__left,&__right{
+			padding-top: 0;
+			width: 50%;
+			position: relative;
+			z-index: 1;
+			float: left;
+		}
+		&__center{
+			width: 100%;
+			clear: both;
+		}
+		&__left{
+			padding-right: 10px;
+		}
+		&__right{
+			padding-left: 10px;
+		}
+	}
+	.page.home .page__center{
+		width: 100%;
+		position: absolute;
+		&:after{
+			position: absolute;
+			content: '';
+			background-color: #000;
+			opacity: .7;
+			display: block;
+			left: 0;
+			right: 0;
+			top: 0;
+			height: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.gallary li {
+		width: 100%;
+	}
+.main-header__contacts, .address-block, .time-block{
+		display: block !important;
+		text-align: center !important;
+		text-align-last: center !important;
+		margin: 0;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+}
+@media screen and (max-width: 480px){
+	.main-menu{
+		&__name{
+			font-size: 20px;
+		}
+		&__desc{
+			font-size: 15px;
+		}
+	}
+}

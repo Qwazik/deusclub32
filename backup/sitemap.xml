@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with www.majento.ru -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://deusclub32.ru/</loc>
+	<lastmod>2016-12-12T17:01:29+03:00</lastmod>
+	<priority>1.00</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://deusclub32.ru/pages/bar.pdf</loc>
+	<lastmod>2016-12-12T17:01:29+03:00</lastmod>
+	<priority>0.80</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://deusclub32.ru/pages/hookah.pdf</loc>
+	<lastmod>2016-12-12T17:01:29+03:00</lastmod>
+	<priority>0.80</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://deusclub32.ru/pages/kitchen.pdf</loc>
+	<lastmod>2016-12-12T17:01:29+03:00</lastmod>
+	<priority>0.80</priority>
+	<changefreq>weekly</changefreq>
+</url>
+</urlset>

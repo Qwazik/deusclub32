@@ -1,0 +1,7 @@
+RewriteEngine on RewriteCond %{ HTTP_REFERER}! ^$ RewriteCond %{ HTTP_REFERER}! ^http ://( www\.)?www.deusclub32.ru/.*$ [NC] RewriteRule \. (gif|jpg|js|css)$ - [F]
+
+RewriteCond %{HTTP_HOST} ^([^www].*)$
+RewriteRule ^(.*)$ http://www.deusclub32.ru/$1 [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://www.deusclub32.ru/ [R=301,L]
